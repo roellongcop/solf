@@ -22,12 +22,13 @@ body img.responsive {
   height: auto;
 }
 body .hero {
-  background: url(bg.png);
-  background-position: top;
-  transition: background-size 0.5s ease-in-out;
-  background-size: 120%; 
-  background-repeat: no-repeat;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 1) 100%), url('bg.png');
+  background-size: cover;
+  background-position: center;
+  position: relative; /* Ensures the container can hold absolute positioned elements */
+  z-index: -1;
 }
+
 p {
   font-size: 14px;
 }
@@ -83,30 +84,37 @@ header ul li button img {
   max-height: 15px;
   width: unset !important;
 }
-body .hero > section.first {
+body section.first {
   display: flex;
-  padding: 0 6rem;
+  padding: 0 8rem;
 }
-body .hero > section.first .left-content {
+body section.first p {
+  font-size: 18px;
+}
+body section.first .left-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 4rem;
+  margin-top: 8rem;
 }
-body .hero > section.first .left-content img:nth-of-type(1) {
-  max-width: 470px;
+body section.first .left-content img:nth-of-type(1) {
+  max-width: 22rem;
 }
-body .hero > section.first .left-content img:nth-of-type(2) {
-  max-width: 845px;
+body section.first .left-content img:nth-of-type(2) {
+  max-width: 41rem;
+}
+body section.first .left-content img:nth-of-type(3) {
+  max-width: 120rem;
 }
 
-body .hero > section.first .left-content p {
+body section.first .left-content p {
   color: white;
-  letter-spacing: 0.88px;
+  letter-spacing: 0.3px;
   font-weight: 500;
 }
-body  .hero > section.first .right-content img {
-  margin-left: -7.38rem;
+body section.first .right-content img {
+  margin-left: -5rem;
+  margin-top: -1rem;
 }
 
 main section.second {
