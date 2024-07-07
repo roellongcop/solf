@@ -83,29 +83,29 @@ header ul li button img {
   max-height: 15px;
   width: unset !important;
 }
-body > .hero > section.first {
+body .hero > section.first {
   display: flex;
   padding: 0 6rem;
 }
-body > .hero > section.first .left-content {
+body .hero > section.first .left-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 4rem;
 }
-body > .hero > section.first .left-content img:nth-of-type(1) {
+body .hero > section.first .left-content img:nth-of-type(1) {
   max-width: 470px;
 }
-body > .hero > section.first .left-content img:nth-of-type(2) {
+body .hero > section.first .left-content img:nth-of-type(2) {
   max-width: 845px;
 }
 
-body > .hero > section.first .left-content p {
+body .hero > section.first .left-content p {
   color: white;
   letter-spacing: 0.88px;
   font-weight: 500;
 }
-body > .hero > section.first .right-content img {
+body  .hero > section.first .right-content img {
   margin-left: -7.38rem;
 }
 
@@ -117,11 +117,34 @@ main section.second {
   margin: 0 auto;
   border-radius: 37px;
   gap: 3rem;
-  margin-top: -7rem;
+  margin-top: -8rem;
 }
 main section.second .photo-container {
   align-self: end;
 }
-
-
+main section.second p.title {
+  margin-right: 1rem;
+  font-size: 24px;
+  font-weight: 600;
+}
+main section.second img.title-img {
+  max-height: 20px;
+  margin-right: 0.5rem;
+}
+main section.second p.sub-title {
+  color: #669331;
+}
+main section.second div.list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+main section.second p:nth-of-type(1) {
+  font-weight: 600;
+  text-wrap: nowrap;
+  font-size: 18px;
+}
+main section.second p:nth-of-type(2) {
+  font-weight: 500;
+}
 
