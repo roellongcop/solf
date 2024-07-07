@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+}
+body img.responsive {
+  width: 100%;
+  height: auto;
+}
+body .hero {
+  background: url(bg@2x.png);
+}
+header {
+  display: flex;
+  align-items: center;
+  padding: 5px 30px;
+}
+header img.logo {
+  height: 30px;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header ul li {
+  position: relative; /* Needed if we decide to use pseudo-elements for borders */
+  padding-right: 10px; /* Adds some padding to avoid the border overlapping the text */
+}
+header ul li:not(:last-child)::after {
+  content: ""; /* Necessary for a pseudo-element */
+  position: absolute;
+  right: 0; /* Align the pseudo-element to the right of the li */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Shift it back by half its height to truly center it */
+  height: 60%; /* Adjust this value to change the height of the border */
+  width: 2px; /* The width of the border */
+  background-color: #ccc; /* The color of the border, can be changed as needed */
+}
+header ul li a {
+  color: white;
+  text-decoration: none;
+}
+header ul li button {
+  background: #a3aba8;
+  border-radius: 25px;
+  border: none;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li button img {
+  max-height: 30px;
+  width: unset !important;
+}
+body > .hero > .content {
+  display: flex;
+  padding: 0 5rem;
+}
+body > .hero > .content .left-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4.5rem;
+}
+body > .hero > .content .left-content img:nth-of-type(1) {
+  max-width: 400px;
+}
+body > .hero > .content .left-content img:nth-of-type(2) {
+  max-width: auto;
+}
+
+
