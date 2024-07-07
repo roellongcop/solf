@@ -11,6 +11,10 @@ body .hero {
   background-position: top;
   transition: background-size 0.5s ease-in-out;
   background-size: 120%; 
+  background-repeat: no-repeat;
+}
+p {
+  font-size: 14px;
 }
 header {
   display: flex;
@@ -42,8 +46,8 @@ header ul li:not(:last-child)::after {
   top: 50%; /* Center vertically */
   transform: translateY(-50%); /* Shift it back by half its height to truly center it */
   height: 60%; /* Adjust this value to change the height of the border */
-  width: 3px; /* The width of the border */
-  background-color: #ccc; /* The color of the border, can be changed as needed */
+  width: 2px; /* The width of the border */
+  background-color: white; /* The color of the border, can be changed as needed */
 }
 header ul li a {
   color: white;
@@ -84,7 +88,7 @@ body > .hero > .content .left-content img:nth-of-type(2) {
 body > .hero > .content .left-content p {
   color: white;
   letter-spacing: 0.88px;
-  font-weight: medium;
+  font-weight: 500;
 }
 body > .hero > .content .right-content img {
   margin-left: -7.38rem;
