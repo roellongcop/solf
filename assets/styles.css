@@ -186,7 +186,7 @@ main section.third .tab-menu-container .inner-container {
   width: 45%;
   display: flex;
   gap: 3.5rem;
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 main section.third .tab-menu-container .inner-container a {
   text-decoration: none;
