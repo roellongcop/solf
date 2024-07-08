@@ -54,6 +54,7 @@ header ul {
 header ul li {
   position: relative; /* Needed if we decide to use pseudo-elements for borders */
   padding-right: 1rem; /* Adds some padding to avoid the border overlapping the text */
+  font-size: 14pt;
 }
 header ul li:not(:last-child)::after {
   content: ""; /* Necessary for a pseudo-element */
@@ -79,6 +80,7 @@ header ul li button {
   align-items: center;
   backdrop-filter: blur(34px);
   gap: 0.5rem;
+  font-size: 14pt;
 }
 header ul li button img {
   max-height: 15px;
@@ -98,23 +100,24 @@ body section.first .left-content {
   margin-top: 8rem;
 }
 body section.first .left-content img:nth-of-type(1) {
-  max-width: 22rem;
+  max-width: 26vw;
 }
 body section.first .left-content img:nth-of-type(2) {
-  max-width: 41rem;
+  max-width: 49vw;
 }
 body section.first .left-content img:nth-of-type(3) {
-  max-width: 120rem;
+  max-width: 114vw;
 }
 
 body section.first .left-content p {
   color: white;
   letter-spacing: 0.3px;
   font-weight: 500;
+  font-size: 16pt;
 }
 body section.first .right-content img {
-  margin-left: -5rem;
-  margin-top: -1rem;
+  margin-left: -6.6vw;
+  margin-top: 4.3rem;
 }
 
 main section.second {
@@ -131,10 +134,14 @@ main section.second {
 main section.second .photo-container {
   align-self: end;
   width: 45%;
+  align-self: end;
+  width: 45%;
+  display: flex;
+  justify-content: center;
 }
 main section.second p.title {
   margin-right: 1rem;
-  font-size: 24px;
+  font-size: 18pt !important;
   font-weight: 600;
 }
 main section.second img.title-img {
@@ -152,11 +159,12 @@ main section.second div.list {
 main section.second p:nth-of-type(1) {
   font-weight: 600;
   text-wrap: nowrap;
-  font-size: 18px;
+  font-size: 14pt;
 }
 main section.second p:nth-of-type(2) {
   font-weight: 500;
 }
-main section.second img {
-  margin-bottom: -70px;
+main section.second .photo-container img{
+  margin-bottom: -2.5vw;
+  max-width: 21vw;
 }
