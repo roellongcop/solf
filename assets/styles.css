@@ -13,9 +13,12 @@
 .relative {position: relative;}
 .nowrap {text-wrap: nowrap;}
 .gap2rem {gap: 2rem;}
-body {
-  margin: 0;
+
+body, html {
   font-family: 'Poppins', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 body img.responsive {
   width: 100%;
@@ -196,4 +199,36 @@ main section.third .tab-menu-container .inner-container a {
 main section.third .tab-menu-container .inner-container a.active {
   color: #769E46;
   font-weight: 600;
+}
+
+main section.fourth .container {
+  background: url(img/P2/bg3.png);
+  height: 47rem;
+  background-size: cover;
+  margin-top: -9rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.split-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.left-side, .right-side {
+  width: 100%;
+  clip-path: polygon(0 0, 50% 0, 55% 100%, 0 100%);
+  background-color: white;
+}
+
+.left-side {
+  padding: 1rem 5rem;
+}
+
+.right-side {
+  clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
+  background-color: transparent;
 }
