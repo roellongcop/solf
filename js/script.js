@@ -1,5 +1,7 @@
 // Get the modal
 var modal = document.getElementById("myModal");
+var modalClose = document.getElementById("modal-close");
+
 var modalContent = document.querySelector(".modal-content");
 
 var modalVideo = document.getElementById("modal-video");
@@ -67,6 +69,9 @@ for (var i = 0; i < imagePreviews.length; i++) {
   });
 }
 
+modalClose.addEventListener("click", function() {
+  modal.style.display = "none";
+});
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal || event.target == modalContent) {

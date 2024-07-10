@@ -1,0 +1,90 @@
+@media  screen and (max-width: 1440px) {
+    .hero-main .logo img {
+        max-width: 22rem;
+    }
+    .hero-main .images img:nth-child(1) {
+        max-width: 42rem;
+    }
+    .hero-main .images img:nth-child(2) {
+        max-width: 50rem;
+    }
+    .p2 img {
+        width: -webkit-fill-available;
+    }
+    .p3 img {
+        max-width: 65rem;
+        right: -370px;
+    }
+    .container {
+        width: auto;
+    }
+    .p7-list {
+        flex-wrap: wrap;
+    }
+    .p7 .container h2 {
+        padding: 0 2rem;
+        width: unset;
+    }
+    .golfer {
+        width: auto;
+        margin-left: 6rem;
+    }
+    header.main .hero-images {
+        margin-left: -6rem;
+    }
+    header.main .hero-images img {
+        width: 30rem;
+    }
+    header.main .nav {
+        padding: 20px 30px;
+        gap: 1rem;
+    }
+    header.main .nav .content .content-1, header.main .nav .content .content-2,
+    header.main .nav .content .content-3 {
+        font-size: 12pt;
+    }
+    header.main .hero-main {
+        padding-top: 6rem;
+    }
+    .hero-main .text {
+        font-size: 12pt;
+        margin-top: -100px;
+    }
+
+    header.main .hero-box {
+        width: auto;
+    }
+    section.p2 {
+        margin-top: -21rem;
+    }
+    .p2 .container-box {
+        width: auto;
+        margin-bottom: 68px;
+    }
+    .header-logo, 
+    .p5 .image-gallery,
+    .p5.video .header,
+    .video-list,
+    .p5 .header,
+    .p6 .header,
+    .p6 .image-list,
+    .heading-text .header-2,
+    .p7 .container h2 {
+        padding: 0 100px;
+    }
+    .video-list {
+        justify-content: space-between;
+    }
+    .video-item {
+        width: 23%;
+    }
+    .p3 .container-box {
+        padding: 180px 70px 80px 30px;
+    }
+    .p4 .container.table {
+        padding: 100px 0;
+    }
+    .p6 .image-item {
+        flex: 0 0 32%;
+    }
+}
