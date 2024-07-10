@@ -19,7 +19,7 @@
         max-width: 50rem;
     }
     .p2 img {
-        width: -webkit-fill-available;
+        width: 100%;
     }
     .p3 img {
         max-width: 65rem;

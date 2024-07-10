@@ -16,8 +16,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
+    font: inherit;
 	vertical-align: baseline;
 }
 article, aside, details, figcaption, figure,
@@ -74,10 +73,9 @@ p, h1, h2, h3, h4, h5 {
 /* HERO SECTION */
 
 header.main {
-    background: url(../images/bg.png);
     display: flex;
     flex-direction: column;
-    background-position: center center;
+    background: url(../images/bg.png) center center;
     background-size: cover;
 }
 
@@ -318,7 +316,7 @@ section.p3 {
 .bg-clip-gradient {
     height: 100%;
     width: 100%;
-    background: transparent linear-gradient(195deg, #C9EAA0 0%, #234225 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(195deg, #C9EAA0 0%, #234225 100%) 0 0 no-repeat padding-box;
     position: absolute;
     top: 0;
     left: 0;
@@ -547,18 +545,16 @@ section.p5.gallery {
 }
 
 .video-overlay {
-    background: url(../images/play-button.png);
     height: auto;
     position: absolute;
     z-index: 10;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #00000080;
+    background: #00000080 url(../images/play-button.png) no-repeat center;
     top: 0;
     bottom: 0;
     width: 100%;
     display: none;
     transition: 0.3s;
+    background-size: 4vw;
 }
 
 .video-text {
@@ -719,8 +715,7 @@ section.heading-text {
     text-align: center;
     color: #FFFFFF;
     width: 1068px;
-    margin: 0 auto;
-    margin-bottom: 67px;
+    margin: 0 auto 67px;
 }
 
 .p7-item {
@@ -869,7 +864,6 @@ footer {
 
 /* The Close Button */
 .close {
-    color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
