@@ -24,7 +24,7 @@
         max-width: 24rem;
     }
     .golfer {
-        margin-left: 0rem;
+        margin-left: 0;
     }
     .golfer-left .golfer-name {
         font-size: 12pt;
@@ -37,7 +37,7 @@
     .p2 .container-box {
         width: 38rem;
         padding: 25px 25px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
     section.p2 {
         margin-top: -29rem;

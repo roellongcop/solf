@@ -1,12 +1,10 @@
 @media screen and (max-width: 600px) {
 
     header.main {
-        background: url(../images/bg.png);
         display: flex;
         flex-direction: column;
-        background-position: top left;
         background-size: 1700px;
-        background-repeat: no-repeat;
+        background: url(../images/bg.png) no-repeat top left;
         overflow: hidden;
     }
 
@@ -23,8 +21,7 @@
     }
 
     header.main .nav .content .content-1, header.main .nav .content .content-2 {
-        padding: 0;
-        padding-right: 10px;
+        padding: 0 10px 0 0;
         font-size: 9pt;
     }
     .content-3 {
@@ -62,8 +59,7 @@
         flex-direction: column-reverse !important;
         width: 100% !important;
         margin: 0 auto;
-        padding: 0px !important;
-        padding-top: 0;
+        padding: 0 !important;
     }
 
     .hero-main .logo img,
@@ -73,7 +69,7 @@
     }
 
     header.main .hero-images {
-        margin-left: 0px;
+        margin-left: 0;
         display: flex;
         justify-content: center;
     }
@@ -89,10 +85,9 @@
     }
 
     header.main .hero-main {
-        padding-top: 0;
         margin-top: -280px;
         padding: 0 30px 70px 30px;
-        background: transparent linear-gradient(180deg, #FFFFFF00 0%, #535353B4 37%, #0B0B0BD0 100%) 0% 0% no-repeat padding-box;
+        background: transparent linear-gradient(180deg, #FFFFFF00 0%, #535353B4 37%, #0B0B0BD0 100%) 0 0 no-repeat padding-box;
     }
 
     .hero-main .text {
@@ -227,7 +222,7 @@
         font-size: 15px;
         width: 100%;
         line-height: 23px;
-        padding-right: 0rem;
+        padding-right: 0;
     }
 
     /* P3 SECTION */
@@ -477,7 +472,7 @@
     }
 
     section.heading-text {
-        padding-top: 0px;
+        padding-top: 0;
     }
 
     .heading-text .header-1 {
@@ -521,7 +516,7 @@
     .p7-item h3 {
         color: #1F1F1F;
         font-size: 14px;
-        -webkit-text-stroke-width: 0px;
+        -webkit-text-stroke-width: 0;
         -webkit-text-stroke-color: #707070;
         line-height: 12px;
     }
@@ -567,7 +562,7 @@
     }
 
     .contact-list .contact-item {
-        padding: 0px 30px;
+        padding: 0 30px;
     }
 
     .phone-img img,
