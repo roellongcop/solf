@@ -252,6 +252,7 @@ header.main .hero-box {
     font-weight: 300;
 }
 
+.golfer-left .golfer-name:hover,
 .golfer-left .golfer-name.active {
     color: #769E46;
     font-weight: 500;
@@ -928,6 +929,7 @@ body {
 }
 .golfer-name {
     z-index: 10;
+    cursor: pointer;
 }
 
 /*END ADDED BY ROEL*/
