@@ -99,4 +99,7 @@
     .p6 .image-item {
         flex: 0 0 32%;
     }
+    .close {
+        right: 80px;
+    }
 }
