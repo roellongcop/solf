@@ -86,7 +86,7 @@
         padding-right: 100px;
     }
     .video-list {
-        justify-content: space-between;
+        justify-content: center;
     }
     .video-item {
         width: 23%;
