@@ -252,7 +252,7 @@ header.main .hero-box {
     font-weight: 300;
 }
 
-.golfer-left .golfer-name:last-child {
+.golfer-left .golfer-name.active {
     color: #769E46;
     font-weight: 500;
 }
@@ -876,8 +876,8 @@ footer {
     top: 10px;
     color: white;
     z-index: 1;
-    padding: 7px 10px;
-    background: rgb(214 213 213 / 12%);
+    padding: 5px 10px;
+    background: rgb(214 213 213 / 68%);
     border-radius: 50%;
 }
 .close:hover {
@@ -919,6 +919,15 @@ footer {
 }
 body {
     overflow-x: hidden;
+}
+.content-text {
+    display: none;
+}
+.content-text.active {
+    display: block;
+}
+.golfer-name {
+    z-index: 10;
 }
 
 /*END ADDED BY ROEL*/

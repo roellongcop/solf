@@ -1,8 +1,4 @@
 @media  screen and (max-width: 1024px) {
-    body {
-        background: red;
-        overflow-x: hidden;
-    }
     .hero-main .logo img {
         max-width: 18rem;
     }
@@ -101,5 +97,11 @@
     }
     .p7 .container h2 {
         margin-bottom: 30px;
+    }
+    #modal-image-preview, #modal-video {
+        width: 100%;
+    }
+    .close {
+        right: 21px;
     }
 }
