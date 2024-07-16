@@ -197,13 +197,15 @@ header.main .hero-box {
     font-weight: 600;
 }
 
-.box-content .header .instagram {
+.box-content .header .instagram,
+.box-content .header .instagram a {
     color: #669331;
     font-size: 16px;
     font-weight: 500;
     display: flex;
     align-items: center;
     gap: 5px;
+    text-decoration: none;
 }
 
 .content-text .content-item {
