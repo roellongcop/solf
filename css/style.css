@@ -206,6 +206,7 @@ header.main .hero-box {
     align-items: center;
     gap: 5px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .content-text .content-item {
