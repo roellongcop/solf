@@ -219,7 +219,9 @@ header.main .hero-box {
     color: #212020;
     font-size: 20px;
     font-weight: 600;
-    width: 30%;
+    width: auto;
+    text-wrap: nowrap;
+    padding-right: 3rem;
 }
 
 .content-item .content-right {
